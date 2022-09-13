@@ -1,0 +1,7 @@
+{
+  "name": "Items",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
