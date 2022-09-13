@@ -7,39 +7,24 @@ function Items() {
       <IonRow>
         <IonCol>
           <IonList>
-            <IonItem>
-              <IonLabel>Input</IonLabel>
-              <IonInput></IonInput>
+            <IonItem button onClick={() => {}}>
+              <IonLabel>Item 1</IonLabel>
             </IonItem>
-            <IonItem>
-              <IonLabel>Toggle</IonLabel>
-              <IonToggle slot="end"></IonToggle>
+            <IonItem button onClick={() => {}}>
+              <IonLabel>Item 2</IonLabel>
             </IonItem>
-            <IonItem>
-              <IonLabel>Radio</IonLabel>
-              <IonRadio slot="end"></IonRadio>
+            <IonItem button onClick={() => {}}>
+              <IonLabel>Item 3</IonLabel>
             </IonItem>
-            <IonItem>
-              <IonLabel>Checkbox</IonLabel>
-              <IonCheckbox slot="end" />
+            <IonItem button onClick={() => {}}>
+              <IonLabel>Item 4</IonLabel>
             </IonItem>
-            <IonItemSliding>
-              <IonItem>
-                <IonLabel>Item</IonLabel>
-              </IonItem>
-              <IonItemOptions side="end">
-                <IonItemOption onClick={() => {}}>Unread</IonItemOption>
-              </IonItemOptions>
-            </IonItemSliding>
-
-            <IonItemSliding>
-              <IonItem>
-                <IonLabel>Item</IonLabel>
-              </IonItem>
-              <IonItemOptions side="end">
-                <IonItemOption onClick={() => {}}>Unread</IonItemOption>
-              </IonItemOptions>
-            </IonItemSliding>
+            <IonItem button onClick={() => {}}>
+              <IonLabel>Item 5</IonLabel>
+            </IonItem>
+            <IonItem button onClick={() => {}}>
+              <IonLabel>Item 6</IonLabel>
+            </IonItem>
           </IonList>
         </IonCol>
       </IonRow>

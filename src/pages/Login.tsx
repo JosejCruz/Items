@@ -16,50 +16,33 @@ function Login() {
     }
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Login</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-
-        <IonGrid>
-          <IonRow>
-            <IonCol size="6" size-lg offset="5">
-              <IonAvatar>
-                <img
-                  alt="Silhouette of a person's head"
-                  src="https://ionicframework.com/docs/demos/api/avatar/avatar.svg"
-                />
-              </IonAvatar>
+      <IonContent>
+        <IonGrid className="login-center" fixed>
+          <IonRow class="img-comp">
+            <IonCol size="6" offset="3.5">
+              <img
+                className="img-border"
+                src="./assets/img/logo512.png"
+                width={150}
+              />
             </IonCol>
           </IonRow>
-          <IonRow>
-            <IonItemDivider></IonItemDivider>
-            <IonCol size="12" size-Lg>
-              <IonItemDivider></IonItemDivider>
+          <IonRow className="login-bg">
+            <IonCol className="login-comp" size="8" offset="2">
               <IonItem>
                 <IonLabel position="floating">Usuario</IonLabel>
-                <IonInput></IonInput>
+                <IonInput color={"primary"}></IonInput>
               </IonItem>
-              <IonItemDivider></IonItemDivider>
+            </IonCol>
+            <IonCol className="login-comp" size="8" offset="2">
               <IonItem>
                 <IonLabel position="floating">Contraseña</IonLabel>
-                <IonInput type="password"></IonInput>
+                <IonInput type="password" color={"primary"}></IonInput>
               </IonItem>
-              <IonItemDivider></IonItemDivider>
+            </IonCol>
+            <IonCol className="login-comp" size="8" offset="2">
               {(log && (
-                <IonButton
-                  shape="round"
-                  expand="block"
-                  color="primary"
-                  onClick={handleButton}
-                >
+                <IonButton expand="block" shape="round" color="primary" onClick={handleButton}>
                   Iniciar Sesión
                 </IonButton>
               )) ||

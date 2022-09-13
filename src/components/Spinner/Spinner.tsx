@@ -3,7 +3,7 @@ import React from 'react'
 
 function Spinner() {
   return (
-    <IonCol size="12" sizeSm="center" offset="5">
+    <IonCol size="6" offset="5">
       <IonSpinner color={"primary"} name="circular" />
     </IonCol>
   );

@@ -1,0 +1,39 @@
+.Nav {
+    background-color: #2E5C70;
+}
+
+.Item-Nav {
+    color: white;
+}
+
+.buttonbg {
+    background-color: #9D2240;
+}
+.login-center {
+    position: absolute;
+    padding-top: 15%;
+}
+
+.img-border {
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.img-comp{
+    padding-bottom: 8%;
+}
+
+
+.login-bg{
+    background-color: #2E5C70;
+    border: none;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.login-comp{
+    padding-top: 5%;
+}

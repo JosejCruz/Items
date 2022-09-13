@@ -23,6 +23,7 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import Login from './pages/Login';
 import Main from './pages/Main';
+import Item from './components/Item';
 
 setupIonicReact();
 
@@ -42,6 +43,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/Main">
           <Main />
+        </Route>
+        <Route exact path="/Item">
+          <Item/>
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
