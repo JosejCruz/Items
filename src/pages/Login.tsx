@@ -18,14 +18,16 @@ function Login() {
     <IonPage>
       <IonContent>
         <IonGrid className="login-center" fixed>
-          <IonRow class="img-comp">
-            <IonCol size="6" offset="3.5">
+          <IonRow className="img-comp">
+            <IonCol className="ion-align-self-start"></IonCol>
+            <IonCol className="ion-align-self-center">
               <img
                 className="img-border"
                 src="./assets/img/logo512.png"
                 width={150}
               />
             </IonCol>
+            <IonCol className="ion-align-self-end"></IonCol>
           </IonRow>
           <IonRow className="login-bg">
             <IonCol className="login-comp" size="8" offset="2">
