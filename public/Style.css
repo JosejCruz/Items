@@ -24,7 +24,7 @@
 }
 
 .img-comp {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 
 
@@ -41,4 +41,7 @@
 
 .login-comp {
     padding-top: 2%;
+}
+.Space{
+    padding-top: 70%;
 }

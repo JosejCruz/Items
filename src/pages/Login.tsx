@@ -12,14 +12,14 @@ function Login() {
         setTimeout(() => {
             setLoading(false)
             setLog(true)
-        }, 3000);
+        }, 5000);
     }
   return (
     <IonPage>
       <IonContent>
         <IonGrid className="login-center" fixed>
           <IonRow className="img-comp">
-            <IonCol className="ion-align-self-start"></IonCol>
+            <IonCol size='3.5' className="ion-align-self-start"></IonCol>
             <IonCol className="ion-align-self-center">
               <img
                 className="img-border"
@@ -27,7 +27,7 @@ function Login() {
                 width={150}
               />
             </IonCol>
-            <IonCol className="ion-align-self-end"></IonCol>
+            <IonCol size='3' className="ion-align-self-end"></IonCol>
           </IonRow>
           <IonRow className="login-bg">
             <IonCol className="login-comp" size="8" offset="2">
@@ -49,6 +49,8 @@ function Login() {
                 </IonButton>
               )) ||
                 (Loading && <Spinner />)}
+            </IonCol>
+            <IonCol className='Space'>
             </IonCol>
           </IonRow>
         </IonGrid>
