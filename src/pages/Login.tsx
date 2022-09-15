@@ -31,15 +31,13 @@ function Login() {
           </IonRow>
           <IonRow className="login-bg">
             <IonCol className="login-comp" size="8" offset="2">
-              <IonItem>
-                <IonLabel position="floating">Usuario</IonLabel>
-                <IonInput color={"primary"}></IonInput>
+              <IonItem className='BorderItem'>
+                <IonInput color={"primary"} placeholder="Usuario"></IonInput>
               </IonItem>
             </IonCol>
             <IonCol className="login-comp" size="8" offset="2">
-              <IonItem>
-                <IonLabel position="floating">Contraseña</IonLabel>
-                <IonInput type="password" color={"primary"}></IonInput>
+              <IonItem className='BorderItem'>
+                <IonInput type="password" color={"primary"} placeholder="Contraseña"></IonInput>
               </IonItem>
             </IonCol>
             <IonCol className="login-comp" size="8" offset="2">

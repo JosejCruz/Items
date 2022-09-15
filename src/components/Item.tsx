@@ -5,7 +5,7 @@ import './style.css'
 function Item() {
   return (
     <>
-      <IonMenu side="end" menuId="first" contentId="main">
+      <IonMenu className='Menu' side="end" menuId="first" contentId="main">
         <IonHeader >
           <IonToolbar color={'medium'}>
             <IonTitle>Ejemplo Menu</IonTitle>

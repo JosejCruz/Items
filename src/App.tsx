@@ -24,6 +24,7 @@ import './theme/variables.css';
 import Login from './pages/Login';
 import Main from './pages/Main';
 import Item from './components/Item';
+import Offcanvas from './components/Offcanvas/Offcanvas';
 
 setupIonicReact();
 
@@ -46,6 +47,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/Item">
           <Item/>
+        </Route>
+        <Route exact path="/Offcanvas">
+          <Offcanvas/>
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

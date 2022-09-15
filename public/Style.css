@@ -42,6 +42,12 @@
 .login-comp {
     padding-top: 2%;
 }
-.Space{
+
+.BorderItem {
+    border: 3px solid transparent;
+    border-radius: 22px;
+}
+
+.Space {
     padding-top: 70%;
 }
